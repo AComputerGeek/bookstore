@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+	<!--
+	Author: 	Amir Armion
+  Version:	V.01
+	-->
+	<head>
+		<title>AArmion.com | Bookstore</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="css/styles.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<div id="wrapper">
+			<header>
+                <a href="index.html"><img src="images/logo.png" alt="Site Logo"></a>
+                <h1>Amir Bookstore</h1>
+
+				<div class="search" >
+					<form action="/" method="GET" class="form">
+						<input type="search" placeholder="Search Over 10 Million Books..." class="search-field" />
+						<button type="submit" class="search-button"><img src="images/search.png" alt="Search Magnifier"></button>
+					</form>
+				</div>
+
+				<nav>
+					<div>
+						<ul class="nav-ul container3">
+							<li class="nav-li "><a class="nav-link" href="books.html">Books</a></li>
+							<li class="nav-li "><a class="nav-link " href="best-sellers.html">Best Sellers</a></li>
+							<li class="nav-li "><a class="nav-link" href="deals.html">Deals</a></li>
+							<li class="nav-li box3"><a class="nav-link" id="current-page" href="sign-in.html">Sign in</a></li>
+							<li class="nav-li"><a class="nav-link" href="cart.html"><img class="cart" src="images/cart.png" alt="Cart"></a></li>
+						</ul>
+					</div>
+				</nav>	
+            </header>
+
+			<main>
+				<form class="sign-in" action="./somewhere.html">
+					<fieldset>
+						<input type="text" id="name" name="Email" placeholder="Email" pattern="[A-Za-z0-9]{1,20}@[A-Za-z0-9]{1,20}.[A-Za-z0-9]{2,3}" required="required"/>
+						<input type="password" id="pwd" name="Password" placeholder="Password" pattern="[A-Za-z0-9]{8,20}" required="required"/>
+						<br /><br />
+						
+						<input type="submit" id="submit" name="submit" value="Sign in"/>
+						<input type="reset" id="reset" name="reset" value="Reset"/>
+						<br>
+						<p><a class="p-size" href="">Did you forget your ID/Password?</a></p>
+						<p><a class="p-size" href="">New Customer?</a></p>
+					</fieldset>
+				</form>
+			</main>
+
+			<footer>
+				<div id="footer-view">
+					<div>
+						<ul class="ul-bullet">
+							<li>3700 Wilingdon Ave.<br /> Burnaby, BC</li>
+							<li>V5G 3H2</li>
+							<li><br/></li>
+							<li>Tel: 604-434-5734</li>
+							<li>Fax: 604-444-6752</li>
+							<li><a href="">Email: info@AArmion.com</a></li>
+							<li><br/></li>
+							<li><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2604.4274025638906!2d-123.00439258467938!3d49.24934442932765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548676e1e37125a3%3A0xcef19ec766ed7764!2sBCIT%20Recreation%20Services!5e0!3m2!1sen!2sca!4v1645703123275!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></li>
+						</ul>
+					</div> 
+
+					<div>
+						<ul class="ul-bullet">
+							<li><a href="">About us</a></li>
+							<li><a href="">Careers</a></li>
+							<li><a href="">Privacy Policy</a></li>
+							<li><a href="">Terms of use</a></li>
+							<li><a href="">Help</a></li>
+						</ul>   
+					</div>			
+				</div>
+
+				<div class="logos-adj">
+					<a href="https://www.facebook.com/Books.Armion" target="_blank"><img class="social-media-logo" src="images/facebook.jpg" alt="Facebook"></a>
+					<a href="https://www.instagram.com/Books.Armion" target="_blank"><img class="social-media-logo" src="images/instagram.jpg" alt="Instagram"></a>
+					<a href="https://www.twitter.com/bcit" target="_blank"><img class="social-media-logo" src="images/twitter.png" alt="Twitter"></a>
+					<a href="https://www.youtube.com/user/AArmion" target="_blank"><img class="social-media-logo" src="images/youtube.png" alt="Twitter"></a>
+				</div>
+
+				<hr/>
+
+				<p class="footer-adj">&copy; 2020-2022, www.AArmion.com, Inc. | All right reserved</p>
+			</footer>
+		</div>
+	</body>
+</html>
